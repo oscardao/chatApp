@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: mini-wakuwaku;
+    src: url(fonts/mini-wakuwaku.otf);
+}
+
+@font-face {
+    font-family: Honyaji;
+    src: url("fonts/HonyaJi-Re.ttf");
+    unicode-range: U+0020-007F, U+2190;
+}
+
+html, body {
+    background-color: #ffffff;
+    width:  100%;
+    height: 100%;
+    margin: 0;
+}
+
+#messageInput{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    font-family: mini-wakuwaku;
+    text-align: center;
+}
+
+#msgInput{
+    min-width: 400px;
+    min-height: 40px;
+    font-size: x-large;
+    font-family: mini-wakuwaku;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
